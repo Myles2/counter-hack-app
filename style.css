@@ -6,14 +6,22 @@
 }
 
 .counter{
-    width: 960px;
+    width: 60vw;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
+    background-image: linear-gradient(rgb(181, 196, 235), rgb(30, 81, 156));
+    border-radius: 20px;
 }
 
 .counter h1{
     border-bottom: 1px solid #ddd;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.counter__value {
+    margin-top: 80px;
 }
 
 input{
@@ -30,4 +38,12 @@ button{
     background: royalblue;
     border: none;
     color: white;
+}
+
+button:hover{
+    background: rgb(54, 91, 201);
+}
+
+button:active{
+    background: rgb(10, 66, 231);
 }
